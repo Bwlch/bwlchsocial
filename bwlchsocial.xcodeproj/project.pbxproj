@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		20B200AF1DA29CBB00D30348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B200AE1DA29CBB00D30348 /* AppDelegate.swift */; };
-		20B200B11DA29CBB00D30348 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B200B01DA29CBB00D30348 /* ViewController.swift */; };
+		20B200B11DA29CBB00D30348 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B200B01DA29CBB00D30348 /* SignInVC.swift */; };
 		20B200B41DA29CBB00D30348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B200B21DA29CBB00D30348 /* Main.storyboard */; };
 		20B200B61DA29CBB00D30348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B200B51DA29CBB00D30348 /* Assets.xcassets */; };
 		20B200B91DA29CBB00D30348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B200B71DA29CBB00D30348 /* LaunchScreen.storyboard */; };
+		20B200C11DA29D2200D30348 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20B200C01DA29D2200D30348 /* GoogleService-Info.plist */; };
+		A6BC93459E39EA61AC1BA98F /* Pods_bwlchsocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D907DF46D8BE3F88BA4D31 /* Pods_bwlchsocial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20B200AB1DA29CBB00D30348 /* bwlchsocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bwlchsocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B200AE1DA29CBB00D30348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20B200B01DA29CBB00D30348 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20B200B01DA29CBB00D30348 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		20B200B31DA29CBB00D30348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20B200B51DA29CBB00D30348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20B200B81DA29CBB00D30348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20B200BA1DA29CBB00D30348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20B200C01DA29D2200D30348 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E1EE380D2FF9CA53BCB4785 /* Pods-bwlchsocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bwlchsocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-bwlchsocial/Pods-bwlchsocial.release.xcconfig"; sourceTree = "<group>"; };
+		7A845F57D61C80AE571F840A /* Pods-bwlchsocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bwlchsocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bwlchsocial/Pods-bwlchsocial.debug.xcconfig"; sourceTree = "<group>"; };
+		A7D907DF46D8BE3F88BA4D31 /* Pods_bwlchsocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bwlchsocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6BC93459E39EA61AC1BA98F /* Pods_bwlchsocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				20B200AD1DA29CBB00D30348 /* bwlchsocial */,
 				20B200AC1DA29CBB00D30348 /* Products */,
+				3B4B1437EB24D7AE06DDEDBB /* Pods */,
+				30E3FA5CC3BF8D0DBF8E6626 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +64,31 @@
 			isa = PBXGroup;
 			children = (
 				20B200AE1DA29CBB00D30348 /* AppDelegate.swift */,
-				20B200B01DA29CBB00D30348 /* ViewController.swift */,
+				20B200B01DA29CBB00D30348 /* SignInVC.swift */,
 				20B200B21DA29CBB00D30348 /* Main.storyboard */,
 				20B200B51DA29CBB00D30348 /* Assets.xcassets */,
 				20B200B71DA29CBB00D30348 /* LaunchScreen.storyboard */,
 				20B200BA1DA29CBB00D30348 /* Info.plist */,
+				20B200C01DA29D2200D30348 /* GoogleService-Info.plist */,
 			);
 			path = bwlchsocial;
+			sourceTree = "<group>";
+		};
+		30E3FA5CC3BF8D0DBF8E6626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D907DF46D8BE3F88BA4D31 /* Pods_bwlchsocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B4B1437EB24D7AE06DDEDBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A845F57D61C80AE571F840A /* Pods-bwlchsocial.debug.xcconfig */,
+				5E1EE380D2FF9CA53BCB4785 /* Pods-bwlchsocial.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20B200BD1DA29CBB00D30348 /* Build configuration list for PBXNativeTarget "bwlchsocial" */;
 			buildPhases = (
+				0A249500651C88EE37E3EFC8 /* [CP] Check Pods Manifest.lock */,
 				20B200A71DA29CBB00D30348 /* Sources */,
 				20B200A81DA29CBB00D30348 /* Frameworks */,
 				20B200A91DA29CBB00D30348 /* Resources */,
+				7543413072DD20D2D930A6CE /* [CP] Embed Pods Frameworks */,
+				5C98E798FB44151C0EDD2F82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B200C11DA29D2200D30348 /* GoogleService-Info.plist in Resources */,
 				20B200B91DA29CBB00D30348 /* LaunchScreen.storyboard in Resources */,
 				20B200B61DA29CBB00D30348 /* Assets.xcassets in Resources */,
 				20B200B41DA29CBB00D30348 /* Main.storyboard in Resources */,
@@ -132,12 +163,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A249500651C88EE37E3EFC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C98E798FB44151C0EDD2F82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bwlchsocial/Pods-bwlchsocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7543413072DD20D2D930A6CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bwlchsocial/Pods-bwlchsocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20B200A71DA29CBB00D30348 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20B200B11DA29CBB00D30348 /* ViewController.swift in Sources */,
+				20B200B11DA29CBB00D30348 /* SignInVC.swift in Sources */,
 				20B200AF1DA29CBB00D30348 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,10 +336,12 @@
 		};
 		20B200BE1DA29CBB00D30348 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A845F57D61C80AE571F840A /* Pods-bwlchsocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9REL2JA4G6;
 				INFOPLIST_FILE = bwlchsocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mad.com.bwlchsocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +351,12 @@
 		};
 		20B200BF1DA29CBB00D30348 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1EE380D2FF9CA53BCB4785 /* Pods-bwlchsocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9REL2JA4G6;
 				INFOPLIST_FILE = bwlchsocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mad.com.bwlchsocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +383,7 @@
 				20B200BF1DA29CBB00D30348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
